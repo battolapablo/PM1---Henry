@@ -1,0 +1,300 @@
+#mainBody {
+  background-color: rgb(29, 26, 26);
+  color: white;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/883/1014/427/hexagon-colorful-pattern-gradient-wallpaper-preview.jpg);
+  padding-top: 120px;
+  font-family: Verdana;
+}
+
+header {
+  background-color: rgb(32, 32, 32);
+  box-shadow: 2px solid black;
+  padding: 2rem;
+}
+
+.cardContainerTodo {
+  display: flex;
+  width: 50vw;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.cardContainer {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.cardContainer:hover {
+  transform: scale(1.05);
+  background-color: #555;
+}
+
+.Logo {
+  width: 150px;
+  height: 150px;
+}
+#persona,
+#titulo,
+#hobbies,
+#tech {
+  background-image: url("https://wallpapercave.com/wp/wp9285199.jpg");
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+#persona {
+  background-image: url("https://wallpapercave.com/wp/wp9285199.jpg");
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  width: 60vw;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+  border-radius: 15%;
+  transition: 1s;
+}
+#persona:hover {
+  background-color: rgb(92, 91, 90);
+}
+
+#titulo {
+  background-image: url("https://wallpapercave.com/wp/wp9285199.jpg");
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  width: 60vw;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+  border-radius: 15%;
+  transition: 1s;
+}
+#titulo:hover {
+  background-color: rgb(92, 91, 90);
+}
+#hobbies {
+  background-image: url("https://wallpapercave.com/wp/wp9285199.jpg");
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 15%;
+  transition: 1s;
+}
+#hobbies:hover {
+  background-color: rgb(92, 91, 90);
+}
+#tech {
+  background-image: url("https://wallpapercave.com/wp/wp9285199.jpg");
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  text-align: center;
+  background-color: gray;
+  align-items: center;
+  margin: auto;
+  padding: 2em;
+  border-radius: 15%;
+  transition: 1s;
+}
+#tech:hover {
+  background-color: rgb(92, 91, 90);
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial;
+  font-size: 60px;
+  color: #f5f5f5;
+  text-shadow: 10px 10px 10px #4d0520;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 1.5em 0rem 3rem 0rem;
+  color: #f5f5f5;
+  text-shadow: 10px 10px 10px #4d0520;
+}
+#texto {
+  font-size: 13px;
+}
+
+.datos {
+  border: 2px solid #bdc0c4;
+  align-items: center;
+  border-radius: 20px;
+  width: 400px;
+  padding: 1rem;
+}
+
+.label {
+  padding: 1rem;
+}
+.my-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.my-button:hover {
+  background-color: #45a049;
+}
+.my-button:active {
+  background-color: #3e8e41;
+}
+
+#bodyBarra {
+  margin: 0;
+  padding-top: 120px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #666;
+  background: #f2f2f2;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+#main-header {
+  background: #333;
+  color: white;
+  height: 80px;
+}
+#main-header a {
+  color: white;
+}
+#logo-header {
+  float: left;
+  padding: 15px 0 0 20px;
+  text-decoration: none;
+}
+#logo-header:hover {
+  color: #0b76a6;
+}
+#logo-header .site-name {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+#logo-header .site-desc {
+  display: block;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #999;
+}
+.botonesArriba {
+  float: right;
+}
+.ulbotonarriba {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 50px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background: #0b76a6;
+}
+#main-header {
+  background: #070707;
+  color: white;
+  height: 50px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+.activitiesdiv {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#Activities {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+.activitiesdiv:hover {
+  transform: scale(1.05);
+}
+
+.activitiesdiv h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+}
+.activitiesdiv p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+.activitiesdiv img.fotoTarjeta {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.activitiesdiv button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.activitiesdiv button:hover {
+  background-color: #c0392b;
+}
+.activitiesdiv button:active {
+  background-color: #a93226;
+}
+
+h3 {
+  font-family: Verdana;
+}

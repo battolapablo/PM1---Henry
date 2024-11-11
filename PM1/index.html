@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    <title>Document</title>
+</head>
+<body id="mainBody">
+    <body id="bodyBarra">
+        <header id="main-header">
+            <a id="logo-header" href="index.html">
+                <span class="site-name">Pablo Battola</span>
+                <span class="site-desc">Estudiante Henry FT53</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+    <header id="titulo"> 
+        <div>
+            <h1>Proyecto M1</h1>   
+            <h2>Mi Primer Pagina WEB de Presentación</h2>
+        </div>
+    </header>
+    <main>
+        <section id="persona">
+            <article>
+                <div>
+                    <div>
+                        <h2>Algo sobre mi</h2>
+                        <div>
+                            <p id="texto">
+                                Mi nombre es Pablo Battola, tengo 36 años y soy de Córdoba, Argentina.
+                                Soy nuevo en el mundo de la programación y estoy muy ansioso de formar
+                                parte de este grupo.
+                                Contando un poco mas sobre mi, estoy casado hace 6 años y tengo dos hermosos hijos, Bautista de 6 años y Catalina de 2 años.
+                                Mi bella esposa Stefania, quien representa un gran pilar en esta aventura.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>        
+        <section>          
+            <article id="tech">
+                <div>
+                    <div>
+                        <h2> Mis Tecnologias Favoritas</h2>
+                        <ul class="cardContainerTodo">
+                            <li>
+                                <figure class="cardContainer">
+                                    <a href="https://es.wikipedia.org/wiki/CSS"><h3>CSS</h3></a>
+                                    <img class="Logo" src="./Fotos/css-3-svgrepo-com.svg" alt="CSS image" />
+                                </figure>
+                            </li>
+                            <li>
+                                <figure class="cardContainer">
+                                    <a href="https://es.wikipedia.org/wiki/HTML"><h3>HTML</h3></a>
+                                    <img class="Logo" src="./Fotos/html-5-svgrepo-com.svg" alt="HTML image" />
+                                </figure>
+                            </li>
+                            <li>
+                                <figure class="cardContainer">
+                                    <a href="https://es.wikipedia.org/wiki/JavaScript"><h3>JavaScript</h3></a>
+                                    <img class="Logo" src="./Fotos/js-svgrepo-com.svg" alt="JavaScript image" />
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>     
+            </article>
+        </section>
+        <section id="hobbies">   
+            <article>      
+                <div>
+                    <h2> Mis Actividades Favoritas</h2>
+                    <div>
+                        <h3>Este formulario nos permite ingresar tarjetas con Actividades descriptivas</h3>
+                        <br/>
+                        <br/>
+                        <form id="formularioActividad">
+                            <div class="label">
+                                <label for="titulo-form">Titulo/Actividad</label>
+                                <br/>
+                                <br/> 
+                                <input class="datos" type="text" name="titulo" id="titulo-form" required>
+                            </div>
+                            <div class="label">
+                                <label for="descripcion-form">Descripción</label>
+                                <br/>
+                                <br/>
+                                <textarea class="datos" name="descripcion" id="descripcion-form" required></textarea>
+                            </div>
+                            <div class="label">
+                                <label for="imagen-form">URL de Imagen</label>
+                                <br/>
+                                <br/> 
+                                <input class="datos" type="url" name="imagen" id="imagen-form" required>
+                            </div>
+                            <button class="my-button" id="agregar">Agregar Actividad</button>
+                        </form>
+                        <article>
+                            <h3></h3>
+                            <div id="Activities">
+                                <!-- <div class= "activitiesdiv">
+                                    <h3>
+                                        title
+                                    </h3>
+                                    <p>
+                                        description
+                                    </p>
+                                    <img src="URL" alt="title" classname= "fotoTarjeta"> 
+                                    </img>
+                                    <button>
+                                        "Eliminar Tarjeta"
+                                    </button>
+
+                                </div> -->
+                            </div>
+                    </div>     
+                </div>
+            </article>
+        </section>
+    </main>    
+    <footer>
+    </footer>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
